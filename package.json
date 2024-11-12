@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "pre-commit": "^1.2.2"
-  }
+	"dependencies": {
+		"pre-commit": "^1.2.2"
+	},
+	"engines": {
+		"node": ">=22.11.0"
+	}
 }
