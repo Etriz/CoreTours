@@ -1,0 +1,6 @@
+{
+	"tours": [
+		{ "id": 0, "name": "DJ's Resort - test", "Url": "/dj-resort-test" },
+		{ "id": 1, "name": "Test 02", "Url": "/test02" }
+	]
+}
