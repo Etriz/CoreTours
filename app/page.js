@@ -8,7 +8,7 @@ export default async function Home() {
 		return (
 			<li className="mb-2" key={item.id}>
 				<a
-					href={'/tours/' + item.Url + '/index.htm'}
+					href={'/tours/' + item.Url}
 					rel="noopener noreferrer"
 					target="_blank">
 					{item.name}
