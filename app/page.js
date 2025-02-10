@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { getLocalData } from '@/lib/getdata';
 
 export default async function Home() {
@@ -31,7 +32,7 @@ export default async function Home() {
 					{itemMap}
 				</ol>
 
-				<div className="flex gap-4 items-center flex-col sm:flex-row">
+				<div className="flex flex-col gap-4 items-center sm:flex-row">
 					<a
 						className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
 						href="https://github.com/Etriz/CoreTours"
@@ -39,6 +40,15 @@ export default async function Home() {
 						rel="noopener noreferrer">
 						Github Codebase
 					</a>
+				</div>
+				<div className="flex flex-row gap-4 items-center">
+					<Link href="http://www.coredrafting.com">CoreDrafting</Link>
+					<Link href="http://www.corerealestate.agency">
+						CoreRealEstate
+					</Link>
+					<Link href="http://www.corelotstore.com">CoreLotStore</Link>
+					<Link href="http://www.corecare.services">CoreCare</Link>
+					<Link href="http://www.remmersion.com">Remmersion</Link>
 				</div>
 			</main>
 		</div>
